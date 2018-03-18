@@ -34,7 +34,8 @@ def sort(alist):
 
 		print 'merging', alist
 
-alist = []
-for i in xrange(10):
-	alist.append(rd(10,99))
-sort(alist)
+if __name__ == '__main__':
+	alist = []
+	for i in xrange(10):
+		alist.append(rd(10,99))
+	sort(alist)
